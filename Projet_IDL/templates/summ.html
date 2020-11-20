@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temporal Twitter Summarizer (U.S. election)</title>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a class="active" href="/summ">Generate WorldCloud</a></li>
+  <li><a href="/word">Get statistics</a></li>
+  <li><a href="/compare">Get two words comparison</a></li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+  <form action="#" method="post">
+    <h1>Temporal Twitter Summarizer (U.S. election)</h1>
+    <p> please choose a day to see the wordcloud :</p>
+      <select name="dateT">
+        <option value="2020-07-27">2020-07-27</option>
+        <option value="2020-07-28">2020-07-28</option>
+        <option value="2020-07-29">2020-07-29</option>
+        <option value="2020-07-30">2020-07-30</option>
+        <option value="2020-07-31">2020-07-31</option>
+        <option value="2020-08-01">2020-08-01</option>
+        <option value="2020-08-02">2020-08-02</option>
+        <option value="2020-08-03">2020-08-03</option>
+        <option value="2020-08-04">2020-08-04</option>
+        <option value="2020-08-05">2020-08-05</option>
+        <option value="2020-08-07">2020-08-07</option>
+        <option value="2020-08-08">2020-08-08</option>
+        <option value="2020-08-09">2020-08-09</option>
+        <option value="2020-08-10">2020-08-10</option>
+        <option value="2020-08-11">2020-08-11</option>
+        <option value="2020-08-12">2020-08-12</option>
+        <option value="2020-08-13">2020-08-13</option>
+        <option value="2020-08-26">2020-08-26</option>
+        <option value="2020-08-27">2020-08-27</option>
+        <option value="2020-08-28">2020-08-28</option>
+        <option value="2020-08-29">2020-08-29</option>
+        <option value="2020-08-31">2020-08-31</option>
+        <option value="2020-09-01">2020-09-01</option>
+        <option value="2020-09-02">2020-09-02</option>
+        <option value="2020-09-03">2020-09-03</option>
+        <option value="2020-09-04">2020-09-04</option>
+        <option value="2020-09-05">2020-09-05</option>
+        <option value="2020-09-14">2020-09-14</option>
+        <option value="2020-09-15">2020-09-15</option>
+        <option value="2020-09-21">2020-09-21</option>
+        <option value="2020-09-22">2020-09-22</option>
+        <option value="2020-09-24">2020-09-24</option>
+        <option value="2020-09-29">2020-09-29</option>
+        <option value="2020-10-01">2020-10-01</option>
+        <option value="2020-10-02">2020-10-02</option>
+      </select>
+      <input type="submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
